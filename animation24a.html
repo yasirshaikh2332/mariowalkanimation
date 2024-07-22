@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.1)
+          ),
+          url("https://getwallpapers.com/wallpaper/full/b/7/7/729740-full-size-super-mario-wallpaper-1920x1200.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+
+      img {
+        width: 200px;
+        position: absolute;
+        bottom: 8.7%;
+        animation: mariorun 5s linear infinite;
+      }
+      @keyframes mariorun {
+        0% {
+          translate: 0%;
+        }
+        100% {
+          translate: calc(100vw - 200px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img src="https://orig00.deviantart.net/3db4/f/2017/343/5/f/smb_running_small_mario_by_greenlightning57-dbw8cu7.png" alt="mario running " />
+  </body>
+</html>
+0
